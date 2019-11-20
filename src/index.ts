@@ -3,6 +3,10 @@ import axios from 'axios';
 import {createSlider} from './slider';
 
 const a = 10;
+const b = 20;
+const c = a * b;
+console.log(c);
+const slider = createSlider();
 
 type User = {
   id?: number, // условное, те оно может быть, а может отсутствовать
